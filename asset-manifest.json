@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Andrii-Podieniezhnyi/Script-Store/static/css/main.1987e94a.chunk.css",
+    "main.js": "/Andrii-Podieniezhnyi/Script-Store/static/js/main.163e6d02.chunk.js",
+    "main.js.map": "/Andrii-Podieniezhnyi/Script-Store/static/js/main.163e6d02.chunk.js.map",
+    "runtime~main.js": "/Andrii-Podieniezhnyi/Script-Store/static/js/runtime~main.01c04699.js",
+    "runtime~main.js.map": "/Andrii-Podieniezhnyi/Script-Store/static/js/runtime~main.01c04699.js.map",
+    "static/css/2.98036eff.chunk.css": "/Andrii-Podieniezhnyi/Script-Store/static/css/2.98036eff.chunk.css",
+    "static/js/2.5bf2f149.chunk.js": "/Andrii-Podieniezhnyi/Script-Store/static/js/2.5bf2f149.chunk.js",
+    "static/js/2.5bf2f149.chunk.js.map": "/Andrii-Podieniezhnyi/Script-Store/static/js/2.5bf2f149.chunk.js.map",
+    "index.html": "/Andrii-Podieniezhnyi/Script-Store/index.html",
+    "precache-manifest.9de60e13f0881e1810b372d3b137f3e0.js": "/Andrii-Podieniezhnyi/Script-Store/precache-manifest.9de60e13f0881e1810b372d3b137f3e0.js",
+    "service-worker.js": "/Andrii-Podieniezhnyi/Script-Store/service-worker.js",
+    "static/css/2.98036eff.chunk.css.map": "/Andrii-Podieniezhnyi/Script-Store/static/css/2.98036eff.chunk.css.map",
+    "static/css/main.1987e94a.chunk.css.map": "/Andrii-Podieniezhnyi/Script-Store/static/css/main.1987e94a.chunk.css.map",
+    "static/media/pichu_ico.webp": "/Andrii-Podieniezhnyi/Script-Store/static/media/pichu_ico.ec0607e3.webp",
+    "static/media/pikachu_ico.png": "/Andrii-Podieniezhnyi/Script-Store/static/media/pikachu_ico.d3ada596.png",
+    "static/media/pikachu_ninja_ico.png": "/Andrii-Podieniezhnyi/Script-Store/static/media/pikachu_ninja_ico.3e0a5763.png",
+    "static/media/pokeBall_all.png": "/Andrii-Podieniezhnyi/Script-Store/static/media/pokeBall_all.c2a5a3af.png",
+    "static/media/raichu_ico.webp": "/Andrii-Podieniezhnyi/Script-Store/static/media/raichu_ico.1a03bcf3.webp"
+  }
+}
