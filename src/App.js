@@ -22,7 +22,7 @@ import './components/auth_screen/auth_screen.css'
 function App() {
 
   return (
-    <Router basename={process.env.NODE_ENV === 'production' ? '/script-store' : '/'}>
+    <Router basename={process.env.NODE_ENV === 'production' ? '/Script-Store' : '/'}>
       <AuthProvider>
         <BookProvider>
           <Routes>
