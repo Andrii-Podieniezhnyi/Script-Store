@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10bff5a1387574ea4d5210226c70e6cb",
+    "revision": "d260e5cd5a40e4e8998e241819dc71e2",
     "url": "/Andrii-Podieniezhnyi/Script-Store/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Andrii-Podieniezhnyi/Script-Store/static/css/2.98036eff.chunk.css"
   },
   {
-    "revision": "f54d2265f3ba36b03f44",
+    "revision": "7487b949e53c0371beef",
     "url": "/Andrii-Podieniezhnyi/Script-Store/static/css/main.1987e94a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Andrii-Podieniezhnyi/Script-Store/static/js/2.5bf2f149.chunk.js"
   },
   {
-    "revision": "f54d2265f3ba36b03f44",
-    "url": "/Andrii-Podieniezhnyi/Script-Store/static/js/main.163e6d02.chunk.js"
+    "revision": "7487b949e53c0371beef",
+    "url": "/Andrii-Podieniezhnyi/Script-Store/static/js/main.9a3f8d4a.chunk.js"
   },
   {
     "revision": "c65fc3305e9ed8155aff",
