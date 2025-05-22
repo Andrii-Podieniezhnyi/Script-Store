@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { HashRouter as Router, Route, Routes} from 'react-router-dom';
 import { BookProvider } from './components/book_context/book_provider';
 import BookList from './components/book_list/book_list';
 import { BookModal } from './components/book_modal/book_modal';
@@ -22,7 +22,7 @@ import './components/auth_screen/auth_screen.css'
 function App() {
 
   return (
-    <Router basename={process.env.NODE_ENV === 'production' ? '/Script-Store' : '/'}>
+    <Router>
       <AuthProvider>
         <BookProvider>
           <Routes>
