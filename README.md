@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Script Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React SPA that serves as a library of books with the ability to filter by difficulty level.  
+Users can view detailed descriptions and advantages of each book in a modal window, and download the PDF version if needed.  
+Authentication is implemented via Firebase, but book browsing is publicly accessible.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📋 Project Description
 
-### `npm start`
+Script Store is a book library where users can:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Filter books by difficulty levels: Junior, Middle, Senior, Ninja  
+- View detailed descriptions and benefits of each book in a modal window  
+- Download PDF files of books stored in Firebase Storage  
+- Use a user-friendly interface with support for light and dark themes  
+- Authenticate via Google (Firebase Authentication) to gain extended permissions (e.g., content management)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The application is built using React, React Router, and Firebase for the backend.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Technologies and Libraries Used
 
-### `npm run build`
+- React (version 18.x)  
+- React Router (HashRouter) — routing configured for GitHub Pages compatibility  
+- Context API — global state management for authentication and books  
+- Firebase — authentication, realtime database, and file storage (Firebase Storage)  
+- Bootstrap — for UI styling  
+- SCSS — for organizing styles using the Sass preprocessor  
+- CSS — classic CSS files for styling  
+- PDF Download — button to download PDF files from Firebase Storage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- User authentication via Google (Firebase Authentication)  
+- Public access for browsing the list of books  
+- Protected routes for additional features (e.g., content management)  
+- Light and dark theme switching  
+- Viewing book details in a modal window with descriptions and advantages  
+- Downloading books in PDF format directly from Firebase Storage  
+- Filtering books by difficulty levels: Junior, Middle, Senior, Ninja  
+- Responsive design for various screen sizes
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📥 Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:  
+   ```
+   git clone https://github.com/andrii-podieniezhnyi/Script-Store.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install dependencies:  
+   ```
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Start the development server:  
+   ```
+   npm start
+   ```
 
-## Learn More
+4. Open your browser and navigate to:  
+   ```
+   http://localhost:3000
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔐 Security and Firebase Rules
 
-### Code Splitting
+- Data in Firebase Realtime Database is publicly readable.  
+- Only the project owner (authenticated user with specific UID) can write data.  
+- PDF files are stored in Firebase Storage and are accessible for download via direct links.  
+- It is recommended to regularly check and maintain Firebase Rules in the Firebase Console for security.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
